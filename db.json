@@ -1,73 +1,90 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": "109156be-c4fb-41ea-b1b4-efe1671c5836",
+      "name": "Breno soares",
+      "establishment_name": "Cabaré de rita",
+      "email": "breno@gmail.com",
+      "phone": "99999999999",
+      "password": "1234",
+      "picture": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/4f3b5de2-246f-4b15-9853-feef2bfb26c4.jpeg"
     },
     {
-      "title": "teste",
-      "id": 2
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 53
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 3
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 93
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 32
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 34
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 31
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 333
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 39
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 133
-    },
-    {
-      "title": "teste",
-      "author": "felippe",
-      "id": 3912
+      "id": "a472acde-cc09-41f8-88ea-0f028b7cb30f",
+      "name": "Felippe Rian",
+      "establishment_name": "Bar daora",
+      "email": "felippe@gmail.com",
+      "phone": "83981028347",
+      "password": "1234",
+      "picture": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/c35d33ab-37c9-4759-9aca-0ec8d77c35ec.jpeg"
     }
   ],
-  "comments": [
+  "items": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "quantity": 20,
+      "barcode": 61316970764,
+      "category": "Doces",
+      "price": 500,
+      "name": "Bolo de aniversário ",
+      "id": "07516af5-edf5-45e3-a499-b143b3e4b6c1",
+      "sold": 0,
+      "user_id": "a472acde-cc09-41f8-88ea-0f028b7cb30f",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/8f2ee19d-5d9b-4ffc-b653-66ceb4fe8a6d.jpeg"
+    },
+    {
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/e2bcfbd0-58b6-4f20-86d5-a37db139a8e9.jpeg",
+      "quantity": 50,
+      "barcode": 5454549799494,
+      "category": "Proteínas",
+      "price": 5000,
+      "name": "Carne vegana",
+      "id": "9c05877c-c792-4263-9db9-12988a42f4a0",
+      "user_id": "a472acde-cc09-41f8-88ea-0f028b7cb30f",
+      "sold": 0
+    },
+    {
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/3f998f6e-a4a9-4e47-8d44-1647ed2e4f15.jpeg",
+      "quantity": 4,
+      "barcode": 31313131313131310,
+      "category": "Proteínas ",
+      "price": 10000,
+      "name": "Pato",
+      "id": "3af33d62-7907-4b0d-9771-14709785b9fb",
+      "user_id": "a472acde-cc09-41f8-88ea-0f028b7cb30f",
+      "sold": 0
+    },
+    {
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/9f970504-dbc4-4fa1-9181-ad228bab3aed.jpeg",
+      "quantity": 8000,
+      "barcode": 50404040040404,
+      "category": "Vegano",
+      "price": 100,
+      "name": "Oreo com bacon",
+      "id": "e146c6b7-cfd8-40f0-a23e-899db9a751fc",
+      "user_id": "a472acde-cc09-41f8-88ea-0f028b7cb30f",
+      "sold": 9000
+    },
+    {
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/c9309636-1b33-4fac-85a7-0ddef6fe9c2e.jpeg",
+      "quantity": 50,
+      "barcode": 54545454554,
+      "category": "Fritas",
+      "price": 5000,
+      "name": "Batata palha",
+      "id": "ae89082d-5a78-48ab-aec5-c5789cd520d8",
+      "user_id": "109156be-c4fb-41ea-b1b4-efe1671c5836",
+      "sold": 0
+    },
+    {
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fmarket-manager-8cf764fe-d7e3-448f-9abb-1de585895e2e/ImagePicker/2a18f9fd-0527-4532-a1f3-13b80d04a6a3.jpeg",
+      "quantity": 20,
+      "barcode": 7891095031139,
+      "category": "Fritas",
+      "price": 400,
+      "name": "Extrato nuclear",
+      "id": "19d90722-9f29-4288-9c69-227a07f6874f",
+      "user_id": "a472acde-cc09-41f8-88ea-0f028b7cb30f",
+      "sold": 0
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
